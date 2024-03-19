@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    group:
+      uat: uat,common,ws-uat
+      dev: dev,common,ws-dev

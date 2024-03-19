@@ -1,0 +1,70 @@
+package com.example.muadeeservice.model;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class CardInfoWay4 {
+    private String institution;
+    private String branch;
+    private String clientCategory;
+    private String clientType;
+    private String productCategory;
+    private String redefinedProductCategory;
+    private String contractCategory;
+    private String parentProduct;
+    private String mainProductCorrected;
+    private String mainProductIDT;
+    private String product;
+    private String contractSubtype;
+    private String reportType;
+    private String role;
+    private String icon;
+    private String leaf;
+    private String client;
+    private String contractNumber;
+    private String safeContractNumber;
+    private String contractName;
+    private String contractLevel;
+    private String parentContract;
+    private String billingContract;
+    private String topContract;
+    private String cBSNumber;
+    private String openDate;
+    private String checkUsage;
+    private String currency;
+    private String available;
+    private String balance;
+    private String creditLimit;
+    private String addLimit;
+    private String blocked;
+    private String totalDue;
+    private String pastDue;
+    private String shadowAuthLimit;
+    private String lastBillingDate;
+    private String nextBillingDate;
+    private String addParmString;
+    private String status;
+    private String statusCode;
+    private String externalCode;
+    private String lastApplicationDate;
+    private String lastApplicationOfficer;
+    private String lastApplicationStatus;
+    private String lastActivityDate;
+    private String ready;
+    private String amendmentDate;
+    private String lastScan;
+    private String amendmentOfficer;
+    private String id;
+    private String clientFullName;
+    private String expirationDate;
+    private String cardStatus;
+    private String embossedFirstName;
+    private String embossedLastName;
+    private String cardDateOpen;
+    private String productionStatus;
+    private String productCode;
+    private String clientNumber;
+    private String phoneMobile;
+}

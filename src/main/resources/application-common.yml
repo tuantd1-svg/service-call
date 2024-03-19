@@ -1,0 +1,35 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: micro-service-dev
+    password: 2a55f70a841f18b97c3a7db939b7adc9e34a0f1b
+    virtual-host: micro-service-dev
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: muadee-service
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  sleuth:
+    otel:
+      config:
+        trace-id-ratio-based: 1.0
+      exporter:
+        otlp:
+          endpoint: http://localhost:4317
+jwt:
+  app:
+    jwtSecret: Phuong@1996
+    jwtExpirationMs: 86400000
+server:
+  port: 8999
+  servlet:
+    context-path: /private/muadee-service
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
+      fetch-registry: true
+      register-with-eureka: true
